@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-16T08:44:01 IST" name="Default suite" finished-at="2023-03-16T08:44:01 IST" duration-ms="91">
+    <groups>
+      <group name="sanity ">
+        <method signature="ParallelClass.test2()[pri:0, instance:testngexample.ParallelClass@333291e3]" name="test2" class="testngexample.ParallelClass"/>
+      </group> <!-- sanity  -->
+      <group name="regression">
+        <method signature="ParallelClass.test3()[pri:0, instance:testngexample.ParallelClass@333291e3]" name="test3" class="testngexample.ParallelClass"/>
+        <method signature="ParallelClass.test4()[pri:0, instance:testngexample.ParallelClass@333291e3]" name="test4" class="testngexample.ParallelClass"/>
+        <method signature="ParallelClass.test5()[pri:0, instance:testngexample.ParallelClass@333291e3]" name="test5" class="testngexample.ParallelClass"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ParallelClass.Test1()[pri:0, instance:testngexample.ParallelClass@333291e3]" name="Test1" class="testngexample.ParallelClass"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-03-16T08:44:01 IST" name="Default test" finished-at="2023-03-16T08:44:01 IST" duration-ms="91">
+      <class name="testngexample.ParallelClass">
+        <test-method signature="Test1()[pri:0, instance:testngexample.ParallelClass@333291e3]" started-at="2023-03-16T08:44:01 IST" name="Test1" finished-at="2023-03-16T08:44:01 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="test2()[pri:0, instance:testngexample.ParallelClass@333291e3]" started-at="2023-03-16T08:44:01 IST" name="test2" finished-at="2023-03-16T08:44:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:testngexample.ParallelClass@333291e3]" started-at="2023-03-16T08:44:01 IST" name="test3" finished-at="2023-03-16T08:44:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:testngexample.ParallelClass@333291e3]" started-at="2023-03-16T08:44:01 IST" name="test4" finished-at="2023-03-16T08:44:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:testngexample.ParallelClass@333291e3]" started-at="2023-03-16T08:44:01 IST" name="test5" finished-at="2023-03-16T08:44:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- testngexample.ParallelClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

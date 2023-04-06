@@ -1,0 +1,7 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - com.icehrm_automation.AppTest
+
